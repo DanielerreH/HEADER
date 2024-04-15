@@ -1,5 +1,5 @@
 :root{
-    --fancy-gradient: linear-gradient(to bottom, #884ced, #ec1cce);
+    --fancy-gradient: linear-gradient(to bottom, #17A589 , #34495E);
 
 }
 
@@ -7,6 +7,7 @@ body{
     background: #223;
     margin: 0;
 }
+
 
 header{
     width: 100%;
@@ -43,10 +44,10 @@ header:hover img{
 }
 
 .text{
-    font-family:"Galada", cursive;
-    font-weight: 500;
+    font-family:"Luckiest Guy", cursive;
+    font-weight: 400;
     text-shadow: 0px 5px 5px #0008;
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: #fff;
     line-height: 85%;
     transform: translate(-40px);
@@ -55,5 +56,17 @@ header:hover img{
 
 header:hover .text{
     transform: translate(-90px, -50px) scale(1.5);
+
+}
+
+nav {
+
+    background-color: #F1C40F ;
+
+}
+
+button{
+    
+    border: none;
 
 }
