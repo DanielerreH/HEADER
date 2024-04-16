@@ -61,12 +61,24 @@ header:hover .text{
 
 nav {
 
-    background-color: #F1C40F ;
+    background-color: transparent ;
 
 }
 
 button{
     
-    border: none;
+    
+    border-width: 8 px;
+    border-radius: 15%;
+    border-color: #FF6F00;
+    background-color: rgb(219, 255, 18);
+    text-align: center;
 
+    
+ 
+}
+
+button:hover{
+   background-color: #17A589;
+   border-color: #99FF33;
 }
