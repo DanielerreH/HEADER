@@ -65,9 +65,22 @@ nav {
 
 }
 
+.container{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+
+}
+
+.button1{
+
+    
+
+}
+
 button{
     
-    
+
     border-width: 8 px;
     border-radius: 15%;
     border-color: #FF6F00;
