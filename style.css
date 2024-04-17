@@ -67,8 +67,9 @@ nav {
 
 .container{
     display: flex;
-    background-color: aquamarine;
-    justify-content: space-between;
+    margin: 1%;
+    background-color: transparent;
+    justify-content: end;
 
 }
 
@@ -82,16 +83,35 @@ button{
     
 
     border-width: 8 px;
-    border-radius: 15%;
-    border-color: #FF6F00;
-    background-color: rgb(219, 255, 18);
-    text-align: center;
+    border-radius: 10%;
+    border-color: #DFDFDF;
+    background-color: #fafafa;
+   
 
     
  
 }
 
 button:hover{
-   background-color: #17A589;
-   border-color: #99FF33;
+   background-color: #FDFEFE ;
+   border-color: #FFFF33 ;
+}
+
+
+.Texto h1{
+
+    display: flex;
+    padding: 10px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.Texto p{
+
+    display: flex;
+    background-color: white ;
+    margin: 5%;
+    justify-content:start;
+    font-family: "Chathura", sans-serif;
+    font-size: 30px;
 }
